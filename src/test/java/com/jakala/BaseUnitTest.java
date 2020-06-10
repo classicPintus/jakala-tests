@@ -1,4 +1,4 @@
-package com.jakala.unittests;
+package com.jakala;
 
 import org.junit.runner.RunWith;
 import org.mockito.junit.MockitoJUnitRunner;

@@ -1,5 +1,7 @@
-package com.jakala.unittests;
+package com.jakala.unit.simple;
 
+import com.jakala.BaseUnitTest;
+import com.jakala.unit.simple.LocalDateComponent;
 import org.assertj.core.api.Assertions;
 import org.junit.Before;
 import org.junit.Test;

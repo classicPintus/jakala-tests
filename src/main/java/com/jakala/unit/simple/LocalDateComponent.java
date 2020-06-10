@@ -1,4 +1,4 @@
-package com.jakala.unittests;
+package com.jakala.unit.simple;
 
 import java.time.Duration;
 import java.time.LocalDate;
@@ -14,4 +14,4 @@ public class LocalDateComponent {
     public long differenceInDays(LocalDate from, final LocalDate to) {
         return Duration.between(from.atStartOfDay(), to.atStartOfDay()).abs().toDays();
     }
-};
+}
