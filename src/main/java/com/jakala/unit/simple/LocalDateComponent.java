@@ -1,8 +1,11 @@
 package com.jakala.unit.simple;
 
+import org.springframework.stereotype.Component;
+
 import java.time.Duration;
 import java.time.LocalDate;
 
+@Component
 public class LocalDateComponent {
 
     /**
