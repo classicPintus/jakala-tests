@@ -49,9 +49,9 @@ public class MetricsComponentCalculateFlowEfficiencyTest {
     }
 
     private static class FlowEfficiencyWrapper {
-        private Long leadTime;
-        private Long blockedDays;
-        private BigDecimal expectedFlowEfficiency;
+        private final Long leadTime;
+        private final Long blockedDays;
+        private final BigDecimal expectedFlowEfficiency;
 
         public FlowEfficiencyWrapper(Long leadTime, Long blockedDays, BigDecimal expectedFlowEfficiency) {
             this.leadTime = leadTime;
